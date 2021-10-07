@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: radial-gradient(#f34e4e, #bcebe7, whitesmoke);
+}
+
+.heading-container {
+    width: 80%;
+    background-color: rgb(255, 254, 205);
+    /* background-image: linear-gradient(
+        to top,
+        whitesmoke,
+        rgb(148, 241, 148),
+        aquamarine,
+        rgb(148, 241, 148),
+        white
+    ); */
+    margin: 1em auto;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    color: rgb(18, 18, 46);
+    font-weight: 900;
+    max-width: 750px;
+}
+
+.image-container {
+    max-width: 720px;
+    margin: 1em auto;
+    position: relative;
+    border: 5px solid black;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.image-container div span i {
+    color: #1da1f2;
+    text-shadow: 0 1px white;
+}
+
+.image-container div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+}
+
+.footer {
+    max-width: 750px;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4em;
+}
+
+.footer button {
+    padding: 0.5em 1em;
+    max-width: fit-content;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    transition: all 0.5s ease;
+}
+
+.footer button:hover {
+    letter-spacing: 0.01em;
+    box-shadow: 0 4px 10px black;
+}
+
+.footer button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: radial-gradient(#fff, #bcebe7, whitesmoke);
+    }
+    .heading-container {
+        width: 100%;
+        margin: 0;
+        font-size: 1em;
+    }
+    .image-container {
+        margin: 5em auto;
+        border: 2px solid black;
+    }
+    .image-container div {
+        font-size: 0.8em;
+    }
+    button {
+        font-size: 0.8em;
+    }
+}
