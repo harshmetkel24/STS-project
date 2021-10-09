@@ -112,21 +112,20 @@
 }
 .box:hover .content {
     transition: all 0.5s ease-in;
-
     color: black;
 }
-/* .box:hover .content {
-  opacity: 0.1;
-  display: flex;
-  animation: ayush 1s ease-in 0.1s 1;
 
-  transition: all 1s ease-in;
-    visibility: visible;
-    color: blue;
-    opacity:1 ;
-  animation: ayush 1s ease;
+@media only screen and (max-width: 480px) {
+    .mainheading {
+        font-size: 1em;
+    }
+    .heading h1 {
+        font-size: 1.5em;
+    }
+    .content {
+        font-size: 1em;
+    }
+    .heading {
+        font-size: 1.5em;
+    }
 }
-.box:hover {
-  transition: all 1s ease-in;
-  transform: translateX(10px);
-} */

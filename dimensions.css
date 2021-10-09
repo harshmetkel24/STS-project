@@ -67,3 +67,19 @@ a:hover {
 .heading h1 {
     text-transform: capitalize;
 }
+
+@media only screen and (max-width: 480px) {
+    .mainheading {
+        font-size: 3em;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .dimensions {
+        height: 10em;
+        width: 80vw;
+    }
+    .heading {
+        font-size: 1em;
+    }
+}
