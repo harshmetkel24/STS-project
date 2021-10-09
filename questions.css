@@ -38,6 +38,7 @@
     border-radius: 5px;
     margin: 2%;
     width: 70vw;
+    word-wrap: break-word;
 }
 .heading {
     color: rgb(27, 28, 29);
@@ -51,6 +52,7 @@
     /* bottom:-32vh; */
 }
 .content {
+    
     color: whitesmoke;
     display: flex;
     position: relative;
@@ -61,6 +63,7 @@
     margin: 1%;
     padding: 1%;
     text-align: center;
+    word-wrap: break-word;
     /* display: none;
   visibility: hidden; */
 }
