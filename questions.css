@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.mainheading {
+    margin: 1%;
+    padding: 1%;
+    font-size: 2rem;
+    text-align: center;
+}
+.mainheading h1 {
+    background: -webkit-linear-gradient(#fa709a, #fee140);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#outercontainer {
+    background-color: #0b0c10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #66fcf1;
+    background-image: linear-gradient(45deg, blueviolet, rgb(0, 204, 255));
+    font-size: 1.2rem;
+    border: 2px solid whitesmoke;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 2%;
+    width: 70vw;
+}
+.heading {
+    color: rgb(27, 28, 29);
+    transition: all 1s ease-in-out;
+    text-align: center;
+    /* position: relative; */
+    font-size: 1.9rem;
+    /* position: relative; */
+    /* left: 0; */
+    /* left: 500px; */
+    /* bottom:-32vh; */
+}
+.content {
+    color: whitesmoke;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: all 1s ease-in-out;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    /* display: none;
+  visibility: hidden; */
+}
+
+@keyframes ayush {
+    0% {
+        opacity: 0.1;
+        visibility: visible;
+    }
+    25% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+        display: flex;
+        visibility: visible;
+    }
+}
+@keyframes ayush2 {
+    0% {
+        opacity: 0.8;
+    }
+    25% {
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0;
+        /* display: none; */
+    }
+}
+
+.box:hover {
+    transition: all 0.5s ease-in;
+    box-shadow: 0px 0px 15px 1px whitesmoke;
+}
+.box:hover .heading {
+    transition: all 0.5s ease-in;
+    color: whitesmoke;
+}
+.box:hover .content {
+    transition: all 0.5s ease-in;
+
+    color: black;
+}
+/* .box:hover .content {
+  opacity: 0.1;
+  display: flex;
+  animation: ayush 1s ease-in 0.1s 1;
+
+  transition: all 1s ease-in;
+    visibility: visible;
+    color: blue;
+    opacity:1 ;
+  animation: ayush 1s ease;
+}
+.box:hover {
+  transition: all 1s ease-in;
+  transform: translateX(10px);
+} */
