@@ -33,9 +33,9 @@
     color: #66fcf1;
     background-image: linear-gradient(45deg, blueviolet, rgb(0, 204, 255));
     font-size: 1.2rem;
-    border: 2px solid whitesmoke;
+/*     border: 2px solid whitesmoke; */
     padding: 2%;
-    border-radius: 5px;
+/*     border-radius: 5px; */
     margin: 2%;
     width: 70vw;
     word-wrap: break-word;
