@@ -67,7 +67,7 @@ body {
 
 .footer button {
     padding: 0.5em 1em;
-    /* width: 125px; */
+    width: 125px;
     cursor: pointer;
     font-size: 1.5em;
     /* border: 2px solid black; */
