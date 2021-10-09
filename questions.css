@@ -3,6 +3,7 @@
     margin: 0;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+        font-family: Arial, Helvetica, sans-serif;
 }
 
 .mainheading {
