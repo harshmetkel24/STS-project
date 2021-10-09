@@ -11,11 +11,13 @@
     font-size: 2rem;
     text-align: center;
 }
+
 .mainheading h1 {
     background: -webkit-linear-gradient(#fa709a, #fee140);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 #outercontainer {
     background-color: #0b0c10;
     display: flex;
@@ -83,6 +85,7 @@
         visibility: visible;
     }
 }
+
 @keyframes ayush2 {
     0% {
         opacity: 0.8;
