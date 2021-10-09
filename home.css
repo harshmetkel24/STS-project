@@ -5,17 +5,20 @@
     padding: 0%;
     text-transform: capitalize;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     /* font-family: 'Quicksand', sans-serif; */
+    color: #ff4532;
 }
 
 body {
-    background-color: #ffe9d1;
+    background-color: #161616;
 }
 
 .heading-container {
-    width: 80%;
-    background-color: rgb(255, 92, 92);
+    /* width: 80%; */
+    width: 100%;
+    /* background-color: rgb(255, 92, 92); */
+    /* background-color: whitesmoke; */
     /* background-image: linear-gradient(
         to top,
         whitesmoke,
@@ -25,14 +28,15 @@ body {
         white
     ); */
     margin: 1em auto;
+    margin-top:0px ;
     text-align: center;
-    font-size: 1.2em;
-    padding: 0.5em 1em;
-    border-radius: 1em;
+    font-size: 1.7em;
+    padding: 1em 1.5em;
+    
     color: whitesmoke;
     text-shadow: 2px 1px black;
     font-weight: 900;
-    max-width: 750px;
+    /* max-width: 750px; */
 }
 
 .content {
@@ -74,22 +78,31 @@ body {
 
 .footer button {
     padding: 0.5em 1em;
-    width: 125px;
+    /* width: 125px; */
     cursor: pointer;
-    border: 2px solid black;
-    border-radius: 0.5em;
+    font-size: 1.5em;
+    /* border: 2px solid black; */
+    /* border-radius: 0.5em; */
+    color: #ff4532;
+    background-color: white;
+    /* border: 0.5px solid white; */
     transition: all 0.5s ease;
+    margin: 2%;
+    margin-bottom: 3%;
 }
 
 .footer button:hover {
     letter-spacing: 0.02em;
-    box-shadow: 0 4px 10px black;
+    box-shadow: 0 0 15px 1px white;
+    /* color: white; */
+    background-color: #161616;
+    
 }
 
 .footer button a {
     text-decoration: none;
     font-weight: 500;
-    color: black;
+    /* color: black; */
 }
 
 @media screen and (max-width: 480px) {
