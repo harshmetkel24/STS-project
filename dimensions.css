@@ -27,8 +27,12 @@
     background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     /* border: 2px solid green; */
 }
-.dimensions {
+
+a {
     margin: 2%;
+}
+
+.dimensions {
     width: 40vw;
     height: 45vh;
     background-color: aqua;
